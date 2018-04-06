@@ -1,6 +1,6 @@
 # Markdown Cheatsheet
 
-### Headings
+### Heading
 ```
     # Heading 1
     ## Heading 2
@@ -28,7 +28,7 @@
     You would type this: \*\*BOLD\*\*
 ```
 
-### Italics
+### Italic
 ```
     *This Text* is italic
     _This Text_ is italic
