@@ -52,7 +52,7 @@ _This Text_ is italic
 
 __This Text__ is strong
 
-### Combined
+### Combined emphasis
 ```
     **Combined _emphasis_**
 ```
