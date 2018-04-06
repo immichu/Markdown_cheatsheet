@@ -166,6 +166,8 @@ ___
     npm start
 ```
 
+---
+
 ` ```javascript`
 
       function add(num1, num2) {
@@ -180,6 +182,8 @@ ___
         return num1 + num2;
     }
 ```
+
+---
 
 ` ```python`
 
