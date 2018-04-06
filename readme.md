@@ -54,8 +54,15 @@ ___
 <!--Images-->
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Title") = \!\[alt text](url "Title")
 
-<!--Github-->
-<!--Code_blocks-->
+## Github
+### Code_blocks
+\```bash
+    npm install
+    npm start
+\```
+
+=
+
 ```bash
     npm install
     npm start
@@ -72,7 +79,7 @@ ___
         return num1 + num2
 ```
 
-<!--Tables-->
+### Tables
 ```
     | Tables        | Are           | Cool  |
     | ------------- |:-------------:| -----:|
@@ -88,7 +95,15 @@ ___
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
-<!--Task_lists-->
+### Task Lists
+```
+    * [x] task 1
+    * [x] task 2
+    * [ ] task 3
+```
+
+=
+
 * [x] task 1
 * [x] task 2
 * [ ] task 3
