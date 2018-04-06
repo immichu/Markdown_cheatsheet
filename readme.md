@@ -1,65 +1,162 @@
-<!--Headings-->
-# Heading 1 = # Heading 1
-## Heading 2 = ## Heading 2
-### Heading 3 = ### Heading 3
-#### Heading 4 = #### Heading 4
-##### Heading 5 = ##### Heading 5
-###### Heading 6 = ###### Heading 6
+# Markdown Cheatsheet
 
-\ is used to escape symbols from being interpreted ie. **BOLD** = \*\*BOLD\*\*
-<!--Italics-->
-*This Text* is italic = \*This Text\* is italic
-_This Text_ is italic = \_This Text\_ is italic
+### Headings
+```
+    # Heading 1
+    ## Heading 2
+    ### Heading 3
+    #### Heading 4
+    ##### Heading 5
+    ###### Heading 6
+```
 
-<!--Strong-->
-**This Text** is strong = \*\*This Text\*\* is strong
-__This Text__ is strong = \_\_This Text\_\_ is strong
+=
 
-<!--Combined-->
-**Combined _emphasis_** = \*\*Combined \_emphasis\_\*\*
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
 
-<!--Strikethrough-->
-~~This Text~~ is strikethough = \~\~This Text\~\~ is strikethough
+### Escaping markup
 
-<!--Horizontal_rule-->
-3 hyphens =
+\ is used to escape symbols from being interpreted as Markdown text ie. **BOLD** = \*\*BOLD\*\*
+
+```
+    To show this: **BOLD**
+    You would type this: \*\*BOLD\*\*
+```
+
+### Italics
+```
+    *This Text* is italic
+    _This Text_ is italic
+```
+
+=
+
+*This Text* is italic
+_This Text_ is italic
+
+### Strong
+```
+    **This Text** is strong
+    __This Text__ is strong
+```
+
+=
+
+**This Text** is strong
+
+__This Text__ is strong
+
+### Combined
+```
+    **Combined _emphasis_**
+```
+
+=
+
+**Combined _emphasis_**
+
+### Strikethrough
+```
+    ~~This Text~~ is strikethough
+```
+
+=
+
+~~This Text~~ is strikethough
+
+### Horizontal rule
+```
+    ---
+    ___
+```
+
+=
+
 ---
-3 underscores =
 ___
 
-<!--Block_quote-->
-> This is a quote = \> This is a quote
+### Block quote
+```
+    > This is a quote
+```
 
-<!--Links-->
-[I'm an inline-style link](https://google.co.uk) = \[I'm an inline-style link](url)
+=
 
-[I'm an inline-style link with title](https://google.co.uk "Title") = \[I'm an inline-style link with title](url "title")
+> This is a quote
 
-<!--Ul-->
-* item 1 = \* item 1
+### Links
+```
+    [I'm an inline-style link](https://google.co.uk)
+```
+
+=
+
+[I'm an inline-style link](https://google.co.uk)
+
+```
+    [I'm an inline-style link with title](https://google.co.uk "Title")
+```
+
+=
+
+[I'm an inline-style link with title](https://google.co.uk "Title")
+
+### Ul
+```
+    * item 1
+    * item 2
+        * nested item 1
+```
+
+=
+
+* item 1
 * item 2
-    * nested item 1 = \tab\\* nested item 1
-    1. nested item 2 = \tab\\1. nested item 2
-    
-<!--ol-->
-1. item 1 = \1. item 1
-1. item 2 = \1. item 2
-1. item 3
-    1. nested item 1 = \tab\\1. nested item 2
-    * nested item 2 = \tab\\* nested item 2
+    * nested item 1
 
-<!--Inline_code_blocks-->
-`<p>This is a paragraph</p>` = \``<p>`This is a paragraph`</p>`\`
+### ol
+```
+    1. item 1
+    1. item 2
+        1. nested item 1 
+```
 
-<!--Images-->
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Title") = \!\[alt text](url "Title")
+=
+
+1. item 1
+1. item 2
+    1. nested item 1
+
+### Inline code blocks
+```
+    `<p>This is a paragraph</p>`
+```
+
+=
+
+`<p>This is a paragraph</p>`
+
+### Images
+```
+    ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Title")
+```
+
+=
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Title")
 
 ## Github
-### Code_blocks
-\```bash
-    npm install
-    npm start
-\```
+### Code blocks
+` ```bash`
+
+      npm install
+      npm start
+` ``` `
 
 =
 
@@ -68,11 +165,28 @@ ___
     npm start
 ```
 
+` ```javascript`
+
+      function add(num1, num2) {
+          return num1 + num2;
+      }
+` ``` `
+
+=
+
 ```javascript
     function add(num1, num2) {
         return num1 + num2;
     }
 ```
+
+` ```python`
+
+      def add(num1, num2)
+          return num1 + num2
+` ``` `
+
+=
 
 ```python
     def add(num1, num2)
@@ -107,4 +221,3 @@ ___
 * [x] task 1
 * [x] task 2
 * [ ] task 3
-
