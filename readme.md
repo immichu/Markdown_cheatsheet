@@ -120,7 +120,7 @@ ___
 * item 2
     * nested item 1
 
-### ol
+### Ol
 ```
     1. item 1
     1. item 2
