@@ -37,6 +37,7 @@
 =
 
 *This Text* is italic
+
 _This Text_ is italic
 
 ### Strong
